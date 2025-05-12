@@ -8,5 +8,5 @@
 	path = doc
 	url = https://github.com/SophionDataTech/documentation.git
 [submodule "design"]
-  path = design
-  url = https://github.com/SophionDataTech/design.git
+	path = design
+	url = https://github.com/SophionDataTech/design.git
