@@ -1,12 +1,12 @@
 [submodule "front-end"]
-	path = front
-	url = https://github.com/SophionDataTech/front-end.git
+	path = front-end
+	url = https://github.com/SophionDataTech/front-end_inter.git
 [submodule "back-end"]
-	path = back
-	url = https://github.com/SophionDataTech/back-end.git
+	path = back-end
+	url = https://github.com/SophionDataTech/back-end_inter.git
 [submodule "documentation"]
-	path = doc
-	url = https://github.com/SophionDataTech/documentation.git
+	path = documentation
+	url = https://github.com/SophionDataTech/documentation_inter.git
 [submodule "design"]
 	path = design
-	url = https://github.com/SophionDataTech/design.git
+	url = https://github.com/SophionDataTech/design_inter.git
