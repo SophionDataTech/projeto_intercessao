@@ -37,3 +37,46 @@ Este repositório contém os seguintes submódulos:
 
 ```bash
 git clone --recurse-submodules https://github.com/SophionDataTech/projeto_intercessao.git
+```
+---
+
+## Se você já tiver clonado o repositório sem os submódulos, rode:
+
+```bash
+git submodule update --init --recursive
+```
+---
+
+## 📎 Como clonar subprojetos separadamente
+
+```bash
+# Front-end
+git clone https://github.com/SophionDataTech/front-end_inter.git
+
+# Back-end
+git clone https://github.com/SophionDataTech/back-end_inter.git
+
+# Documentação
+git clone https://github.com/SophionDataTech/documentation_inter.git
+
+# Design
+git clone https://github.com/SophionDataTech/design_inter.git
+```
+---
+
+## 🔄 Como atualizar os submódulos
+
+```bash
+git submodule foreach git pull origin main
+```
+---
+
+## 👥 Desenvolvedores
+Rodrigo Vieira – @vieira_roo
+
+Guilherme Donizetti – @guilhermednztt
+
+---
+
+## 📜 Licença
+Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para mais detalhes.
